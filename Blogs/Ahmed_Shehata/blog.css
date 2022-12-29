@@ -1,0 +1,92 @@
+body{
+    margin: 20px;
+    padding: 20px;
+    background-color: darkgray;;
+}
+
+/* Stert profile*/
+.profile{
+    padding: 20px;
+    margin: 20px;
+}
+ .profile img{
+    width: 50%;
+    max-width: 65%;
+    height: 400px;
+    border-radius: 50%;
+    padding: 10px 10px;
+    margin: 0 20px 20px;
+}
+@media (max-width: 767px){
+    img{
+        border-radius: 0%;
+    }
+}
+.profile .text{
+    margin: 0 20px 20px;
+    background-color: gray;
+    max-width: 50%;
+    padding: 10px 10px;
+}
+.profile .text h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.profile .text p{
+    line-height: 1.7;
+    font-weight: 600;
+    color: maroon;
+}
+/* end profile*/
+
+/* start artical*/
+
+.artic{
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+}
+.artic .backend{
+    background: gray;
+    max-width: 100%;
+}
+.artic .frontend{
+    background: gray;
+    max-width: 100%;
+}
+.artic img{
+    margin: auto 30.5%;
+}
+.artic .frontend img{
+    width: 184px;
+    height: 120px;
+}
+.artic .text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.artic .text p{
+    margin: 10px;
+    text-align: center;
+}
+@media(max-width:861px){
+    .artic{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.artic .text h3{
+    background-color: darkgray;
+    border: none;
+    border-radius: 10%;
+}
+.artic .text button{
+    background-color: darkgray;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    font-family: cursive;
+}
+/* End articals*/
